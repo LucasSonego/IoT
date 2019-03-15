@@ -10,13 +10,13 @@
 #define L2 4
 
 //informações da rede WIFI
-const char* ssid = "10 real por minuto";        //WIFI SSID
-const char* password =  "";                     //WIFI password
+const char* ssid = "xxxxxxxxxx";        //WIFI SSID
+const char* password =  "xxxxxxx";      //WIFI password
 
-const char* mqttServer = "m15.cloudmqtt.com";   //server
-const char* mqttUser = "wdpvrxmh";              //user
-const char* mqttPassword = "KDuQXhS68Vke";      //password
-const int mqttPort = 19042;                     //port
+const char* mqttServer = "xxxxxxxxxxxx";       //server
+const char* mqttUser = "xxxxxxxxxx";           //user
+const char* mqttPassword = "xxxxxxxxxxxx";     //password
+const int mqttPort = xxxxx;                    //port
 
 // TOPICS
 const char* mqttTopicSub1 ="l1";
