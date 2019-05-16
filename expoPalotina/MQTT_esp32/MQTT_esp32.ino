@@ -28,7 +28,7 @@ PubSubClient client(espClient);
 
 
 void sub(){
-  // add here the subscibe line for all your topics
+  // topicos mqtt
   client.subscribe(mqttTopicSub1);
   client.subscribe(mqttTopicSub2);
 }
@@ -37,7 +37,7 @@ void setup() {
  
   Serial.begin(115200);
 
-  // esp32 onboard led will turn on if everything is worcking properly
+  // led onboard acende caso tudo esteja funcionando corretamente
   pinMode(CONNECTED, OUTPUT);
 
   pinMode(L1, OUTPUT);
